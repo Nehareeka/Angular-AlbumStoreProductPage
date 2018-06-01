@@ -9,8 +9,9 @@ import { ProductService } from '../product.service';
   styleUrls: ['./product-tracklisting.component.css']
 })
 export class ProductTracklistingComponent implements OnInit {
-trackingList: any;
-albumInfo: Album;
+  albumInfo: Album;
+  trackingList: any;
+
   constructor(private _productService: ProductService) { }
 
   ngOnInit() {
